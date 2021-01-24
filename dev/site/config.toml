@@ -1,0 +1,17 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Tanner Woodworth | Web Developer"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableEmoji = true
+
+[imaging]
+    bgColor = "#d0d0d0"
+    disableLatLong = true
+    disableDate = true
+
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    style = "dracula"
+    tabWidth = 2

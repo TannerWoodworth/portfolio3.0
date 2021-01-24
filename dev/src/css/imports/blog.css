@@ -1,0 +1,32 @@
+/****** Code Wells ******/
+
+@import '/syntax.css';
+
+code, pre {
+    font-family: 'Source Code Pro', 'Courier New', 'Courier', monospace;
+}
+
+code {
+    background-color: #282A36;
+    color: #fff;
+    padding: .1em .25em;
+    line-height: 1.2;
+}
+
+pre {
+    padding: 1em;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+pre > code {
+    background-color: transparent;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.2;
+    margin: 0;
+}
