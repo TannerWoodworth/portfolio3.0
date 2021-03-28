@@ -1,18 +1,15 @@
 {{ define "main" }}
-
-<h1>Homepage</h1>
-
 <nav class="navigation">
-  <a class="" href="{{ "/about" | relURL }}">
+  <a class="navigation__about" href="{{ "/about" | relURL }}">
     <span>About</span>
   </a>
-  <a class="" href="{{ "/work" | relURL }}">
+  <a class="navigation__work" href="{{ "/work" | relURL }}">
     <span>Work</span>
   </a>
-  <a class="" href="{{ "/contact" | relURL }}">
+  <a class="navigation__contact" href="{{ "/contact" | relURL }}">
     <span>Contact</span>
   </a>
-  <a class="" href="{{ "/blog" | relURL }}">
+  <a class="navigation__blog" href="{{ "/blog" | relURL }}">
     <span>Blog</span>
   </a>
 </nav>
