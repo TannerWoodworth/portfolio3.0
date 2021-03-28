@@ -64,6 +64,8 @@ h2 {
 } 
 
 .navigation a {
+  background-position: center;
+  background-size: cover;
   text-align: center;
   border-bottom: 0;
   font-weight: bold;
@@ -73,6 +75,7 @@ h2 {
   height: 100%;
   position: relative;
   opacity: 1;
+  
 }
 
 .navigation a span {
@@ -81,7 +84,8 @@ h2 {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: transform 150ms;
-  
+  color: #fff;
+  text-shadow: 0px 0px 4px rgba(41, 24, 87, 0.5)
 }
 
 .navigation a:hover span {
@@ -90,16 +94,27 @@ h2 {
 
 .navigation__about {
   background-color: #ED736D;
+  background-image: url(http://tannerwoodworth.com/assets/images/about2.JPG);
 }
 
 .navigation__work {
   background-color: #ECFFFF;
+  background-image: url(http://tannerwoodworth.com/assets/images/work.jpg);
 }
 
 .navigation__contact {
   background-color: #FDF6C4;
+  background-image: url(http://tannerwoodworth.com/assets/images/contact.jpg);
 }
 
 .navigation__blog {
   /* background-color: #ED736D; */
+  background-image: url(http://tannerwoodworth.com/assets/images/blog.jpg);
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  } 
 }
