@@ -1,10 +1,9 @@
 {
   "main": {
-    "css": "main.css",
-    "js": "main.js"
+    "css": "main.dbec1.css",
+    "js": "main.dbec1.js"
   },
   "": {
-    "keep": "fonts/.keep",
-    "json": "01073082c1cbe8a44e94.hot-update.json"
+    "keep": "fonts/.keep"
   }
 }
